@@ -33,7 +33,7 @@ export default function Experience() {
           Where I've Worked
         </h2>
         <p className="section-subtitle animate-on-scroll">
-          Building real-world products and mentoring developers across companies.
+          End-to-end AI and full-stack product development across startups and enterprises.
         </p>
 
         <div className="exp-layout animate-on-scroll">
@@ -75,6 +75,12 @@ export default function Experience() {
                   </li>
                 ))}
               </ul>
+              {active.stack && (
+                <div className="exp-stack">
+                  <span className="stack-label">Stack:</span>
+                  <span className="stack-tags">{active.stack}</span>
+                </div>
+              )}
             </div>
           )}
         </div>

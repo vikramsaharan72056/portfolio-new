@@ -27,7 +27,7 @@ export default function Projects() {
           Things I've Built
         </h2>
         <p className="section-subtitle animate-on-scroll">
-          A selection of projects ranging from Shopify apps to full-stack platforms and AI tools.
+          Production-grade AI applications, full-stack platforms, and Shopify integrations.
         </p>
 
         <div className="filter-tabs animate-on-scroll">

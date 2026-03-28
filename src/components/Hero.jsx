@@ -29,8 +29,14 @@ export default function Hero() {
           <h1 className="hero-title">
             Hi, I'm <span className="gradient-text">Vikram Singh</span>
           </h1>
-          <p className="hero-role">{personal.subtitle}</p>
-          <p className="hero-bio">{personal.bio}</p>
+          <p className="hero-role">AI Full Stack Engineer</p>
+          <p className="hero-tagline">{personal.tagline}</p>
+
+          <div className="hero-tag-row">
+            {['AI Full Stack', 'LLMs', 'NestJS', 'React', 'AWS', 'TypeScript'].map((tag) => (
+              <span key={tag} className="hero-inline-tag">{tag}</span>
+            ))}
+          </div>
 
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">
@@ -46,7 +52,7 @@ export default function Hero() {
 
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-num">2+</span>
+              <span className="stat-num">3+</span>
               <span className="stat-label">Years Experience</span>
             </div>
             <div className="stat-divider" />
@@ -68,7 +74,7 @@ export default function Hero() {
               <img src={personal.avatar} alt="Vikram Singh" className="avatar-img" />
             </div>
             <div className="orbit orbit-1">
-              <div className="orbit-dot" style={{ '--color': '#6c63ff' }} />
+              <div className="orbit-dot" style={{ '--color': '#a855f7' }} />
             </div>
             <div className="orbit orbit-2">
               <div className="orbit-dot" style={{ '--color': '#00d4ff' }} />
@@ -79,7 +85,7 @@ export default function Hero() {
           </div>
 
           <div className="tech-pills">
-            {['AI/LLMs', 'React', 'Shopify', 'Node.js', 'TypeScript'].map((tech, i) => (
+            {['AI/LLMs', 'NestJS', 'React', 'AWS', 'TypeScript'].map((tech, i) => (
               <div
                 key={tech}
                 className="tech-pill"

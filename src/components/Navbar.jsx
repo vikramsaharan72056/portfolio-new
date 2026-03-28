@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './Navbar.css';
 
 const navLinks = [
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '#about-me' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },

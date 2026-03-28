@@ -138,6 +138,32 @@
   font-size: 0.85rem;
 }
 
+.exp-stack {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.stack-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #5c5c7b;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+}
+
+.stack-tags {
+  font-size: 0.78rem;
+  color: #5c5c7b;
+  font-family: 'Space Grotesk', monospace;
+  line-height: 1.6;
+}
+
 @media (max-width: 700px) {
   .exp-layout {
     grid-template-columns: 1fr;
